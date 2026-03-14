@@ -1,0 +1,27 @@
+# 1. 환경 변수 및 설정
+.env
+.vscode/
+
+# 2. 로컬 데이터 저장 폴더
+data/
+
+# 3. macOS
+.DS_Store
+
+# 4. Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 5. 가상 환경 폴더
+venv/
+.venv/
+env/
+.env_dir/
+
+# 6. Jupyter Notebook
+.ipynb_checkpoints/
+
+# 7. 기타
+*.log
+.pytest_cache/
