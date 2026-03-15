@@ -1,4 +1,4 @@
-# 🐙 GitHub Analyze LLM
+# 📊 GitHub Analyze LLM
 
 > **내 GitHub 저장소 코드를 이해하고 대화할 수 있는 맞춤형 AI 어시스턴트**
 
@@ -29,7 +29,15 @@
 git clone https://github.com/Properks/Github-analyze-llm.git
 cd Github-analyze-llm
 
-# 2. 환경 변수(.env) 설정 파일 생성 및 설정
+# 2. 파이썬 3.11 가상 환경 생성 및 활성화
+python3.11 -m venv .venv
+source .venv/bin/activate  # (Windows: .venv\Scripts\activate)
+
+# 3. Jupyter 커널(ipykernel) 패키지 설치
+pip install --upgrade pip
+pip install ipykernel
+
+# 4. 환경 변수(.env) 설정 파일 생성 및 설정
 # GITHUB_TOKEN=your_github_personal_access_token
 # OPENAI_API_KEY=your_openai_api_key
 ```
