@@ -4,6 +4,7 @@
 
 # 2. 로컬 데이터 저장 폴더
 data/
+chroma_db/
 
 # 3. macOS
 .DS_Store
